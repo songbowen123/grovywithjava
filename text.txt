@@ -1,0 +1,11 @@
+package com.example.testgrovyload.inter;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TestInterfaceImpl implements TestInterface {
+    @Override
+    public void soutTest() {
+        System.out.println("sfafafaffafaf");
+    }
+}
